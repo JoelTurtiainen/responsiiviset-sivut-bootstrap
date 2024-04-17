@@ -1,0 +1,558 @@
+<!DOCTYPE html>
+<html lang="fi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <title>It-Velhot</title>
+    <link rel="stylesheet" href="css/custom.css">
+</head>
+<body>
+    <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg bg-dark border-bottom border-primary border-5 fixed-top" data-bs-theme="dark">
+    <div class="container py-2">
+      <span class="navbar-brand">
+        <img src="img/esedu.svg" alt="Esedu Logo" height="30">
+        <span class="text-primary">It</span>-velhot
+      </span>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#myNavbar">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-end" id="myNavbar">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a href="#" class="nav-link text-center">Etusivu</a>
+          </li>
+          <li class="nav-item">
+            <a href="#rakenne" class="nav-link text-center">Tutkinnon rakenne</a>
+          </li>
+          <li class="nav-item">
+            <a href="#tutkinnonosat" class="nav-link text-center">Tutkinnonosat</a>
+          </li>
+          <li class="nav-item">
+            <a href="#kriteerit" class="nav-link text-center">Kriteerit</a>
+          </li>
+          <li class="nav-item">
+            <a href="#arviointi" class="nav-link text-center">Arviointi</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Showcase -->
+  <section class="bg-dark text-light p-5 text-center text-sm-start p-lg-0" data-bs-theme="dark">
+    <div class="container">
+      <div class="d-sm-flex align-items-center justify-content-between">
+        <div>
+          <h1 class="fw-bold">Onko sinusta<span class="text-primary"> It-velhoksi?🧙‍♂️
+          </span></h1>
+          <p class="lead my-4">
+            Tervetuloa It-Velhojen epävirallisille sivuille, täältä löydät tietoa koulutusten sisällöstä ja sen arvioinnista.
+          </p>
+          <a class="btn btn-primary btn-lg" href="https://esedu.fi/koulutustarjonta/#koulutusala=36">Katso koulutuksia</a>
+        </div>
+        <img class="img-fluid w-50 d-none d-sm-block" src="img/undraw_programming_re_kg9v.svg" alt="">
+      </div>
+    </div>
+  </section>
+
+  <!-- Uutiskirje -->
+  <section class="bg-primary text-light p-5">
+    <div class="container">
+      <div class="d-md-flex justify-content-between align-items-center">
+        <h3 class="mb-3 mb-md-0">Tilaa Uutiskirjeemme</h3>
+
+        <div class="input-group news-input">
+          <input type="text" class="form-control" placeholder="Syötä sähköpostiosoite">
+          <button class="btn btn-dark text-light btn-outline-secondary btn-lg" type="button">Tilaa</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Osaaminen -->
+  <section id="osaaminen" class="p-md-5">
+    <div class="container">
+      <div class="row align-items-center justify-content-between">
+        <div class="col-md">
+          <img src="img/undraw_certificate_re_yadi.svg" class="img-fluid w-75" alt="">
+        </div>
+        <div class="col-md p-md-5">
+          <h2>Tutkinnon suorittaneen osaaminen</h2>
+          <p class="lead">
+            Tieto- ja viestintätekniikan perustutkinnon suorittaneella on tieto- ja viestintätekniikan tehtävissä edellytetty ammattitaito, ja hän osaa toimia yhteistyökykyisesti tieto- ja viestintäteknisessä ympäristössä.
+          </p>
+          <p>
+            Tutkinnon suorittanut osaa käyttää alan sanastoa, selvittää asiakkaan tarpeita ja tehdä asiakaslähtöisiä ratkaisuja tieto- ja viestintäteknisiin tehtäviin liittyen. Hän varmistaa, että työn lopputulos vastaa työlle asetettuja vaatimuksia.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Työtehtävä kortit -->
+  <section class="section p-5">
+    <h2 class="pb-3 text-center">Työtehtäviä, joissa tutkinnon suorittanut voi toimia</h2>
+    <div class="container">
+      <div class="row row-cols-md-2 row-cols-lg-3 text-center g-4">
+        <div class="col">
+          <div class="card bg-dark" data-bs-theme="dark">
+            <div class="card-body text-center">
+              <div class="h1 mb-3">
+                <i class="bi bi-tools"></i>
+              </div>
+              <h3 class="card-title mb-3">Elektroniikka-asentaja</h3>
+              <p class="card-text">osaa tehdä elektroniikka-asennuksiin liittyviä asennus-, testaus- ja huoltotöitä. Hän osaa käsitellä oikein elektroniikka-asennuksissa tarvittavia komponentteja ja materiaaleja sekä käyttää tarvittavia työ- ja mittavälineitä.</p>
+              <a href="#" class="btn btn-primary">Read More</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md">
+          <div class="card bg-secondary" data-bs-theme="dark">
+            <div class="card-body text-center">
+              <div class="h1 mb-3">
+                <i class="bi bi-heart-pulse"></i>
+              </div>
+              <h3 class="card-title mb-3">
+                Hyvinvointiteknologia-asentaja
+              </h3>
+              <p class="card-text">osaa toimia sosiaali- ja terveysalan toimintaperiaatteiden ja arvojen mukaan. Hän osaa asentaa turvalaite- ja hyvinvointiteknologiajärjestelmiä sekä hyödyntää hyvinvointiteknologiaa asiakkaan toimintakyvyn ylläpitämiseksi. Hän varmistaa laitteiden turvallisen käytön ja opastaa asiakasta hyvinvointiteknologian käytössä.</p>
+              <a href="#" class="btn btn-dark">Read More</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md">
+          <div class="card bg-dark" data-bs-theme="dark">
+            <div class="card-body text-center">
+              <div class="h1 mb-3">
+                <i class="bi bi-ethernet"></i>
+              </div>
+              <h3 class="card-title mb-3">
+                Tietoverkkoasentaja
+              </h3>
+              <p class="card-text">osaa tehdä tietoverkkokaapeloinnit asiakkaan vaatimusten ja ohjeiden mukaisesti. Hän huomioi tietoliikenneverkkojen rakenteet ja käytetyt materiaalit sekä tekee tarvittavia mittauksia ja testauksia järjestelmän toimivuuden varmistamiseksi.</p>
+              <a href="#" class="btn btn-primary">Read More</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md">
+          <div class="card bg-secondary" data-bs-theme="dark">
+            <div class="card-body text-center">
+              <div class="h1 mb-3">
+                <i class="bi bi-headset"></i>
+              </div>
+              <h3 class="card-title mb-3">
+                IT-tukihenkilö
+              </h3>
+              <p class="card-text">osaa toimia työasemien, verkko- ja lisälaitteiden sekä toimialueiden muodostamassa tieto- ja viestintäteknisessä ympäristössä. Hän toimii osana tietohallintoa sekä auttaa käyttäjiä erilaisissa teknisissä ongelmissa asiakkaan tiloissa tai etäyhteyden välityksellä.</p>
+              <a href="#" class="btn btn-dark">Read More</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md">
+          <div class="card bg-dark" data-bs-theme="dark">
+            <div class="card-body text-center">
+              <div class="h1 mb-3">
+                <i class="bi bi-terminal"></i>
+              </div>
+              <h3 class="card-title mb-3">
+                Ohjelmistokehittäjä
+              </h3>
+              <p class="card-text">osaa ohjelmoida, hyödyntää rajapintoja, käsitellä tietoa sekä käyttää versionhallintaa. Ohjelmistokehitystiimin jäsenenä toimiessaan hän kommunikoi asiakkaan kanssa, suunnittelee ohjelmiston toteutuksen ja varmistaa toteutettavien toimintojen laadun.</p>
+              <a href="#" class="btn btn-primary">Read More</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md">
+          <div class="card bg-secondary" data-bs-theme="dark">
+            <div class="card-body text-center">
+              <div class="h1 mb-3">
+                <i class="bi bi-lightning"></i>
+              </div>
+              <h3 class="card-title mb-3">
+                Sähköpätevyys 3
+              </h3>
+              <p class="card-text">Tieto- ja viestintätekniikan perustutkinnon rakenne ja sisältö on suunniteltu niin, että sähkö- ja automaatioalalla toimiminen -tutkinnon osan suorittaneella on rajoitettuun sähköpätevyyteen 3 määritelty soveltuva koulutus.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Tutkinnon rakenne -->
+  <section id="rakenne" class="p-sm-5 bg-dark text-light" data-bs-theme="dark">
+    <div class="container">
+      <div class="row align-items-center justify-content-between">
+        <div class="col-md p-sm-5">
+          <h2>Tutkinnon Rakenne</h2>
+          <p class="lead">
+            Tieto- ja viestintätekniikan perustutkinnon laajuus on 180 osaamispistettä. Tutkinto muodostuu ammatillisista tutkinnon osista (145 osaamispistettä) ja yhteisistä tutkinnon osista (35 osaamispistettä).
+          </p>
+          <p>
+            Ammatillisista tutkinnon osista pakollisia on 70—115 osaamispistettä ja valinnaisia 30—75 osaamispistettä. Tieto- ja viestintätekniikan perustutkinto sisältää seuraavat tutkintonimikkeet:
+          </p>
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item">Elektroniikka-asentaja</li>
+            <li class="list-group-item">Hyvinvointiteknologia-asentaja</li>
+            <li class="list-group-item">Tietoverkkoasentaja</li>
+            <li class="list-group-item">IT-tukihenkilö</li>
+            <li class="list-group-item">Ohjelmistokehittäjä</li>
+          </ul>
+        </div>
+        <div class="col-md">
+          <img src="img/undraw_choose_re_7d5a.svg" class="img-fluid" alt="">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Tutkinnonosat accordion -->
+  <section id="tutkinnonosat" class="p-sm-5 bg-dark text-light" data-bs-theme="dark">
+    <div class="container">
+      <div class="row align-items-center justify-content-between">
+        <div class="accordion accordion-flush" id="osat">
+          <div class="col-md p-sm-5">
+            <h2>Tutkinnonosat</h2>
+            <!-- Item 1 -->
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#osa-one">
+                  Tieto- ja viestintätekniikan perustehtävät, 25 osp
+                </button>
+              </h2>
+              <div id="osa-one" class="accordion-collapse collapse" data-bs-parent="#osat">
+                <div class="accordion-body">
+                  <div class="row pb-1">
+                    <div class="col text-start">
+                      <h4>Ammattitaitovaatimukset</h4>
+                    </div>
+                    <div class="col text-end fw-light">
+                      Koodi: 106413 Järjestysnumero: 1
+                    </div>
+                    <h5>Opiskelija toimii tieto- ja viestintätekniikan työtehtävissä</h5>
+                    <ul>
+                      <li>toimii hyvällä palveluasenteella (1561)</li>
+                      <li>palvelee sisäisiä tai ulkoisia asiakkaita (1560)</li>
+                      <li>varmistaa asiakkaan tarpeen ja perustelee asiakkaalle ratkaisun (1559)</li>
+                      <li>pyytää palautetta omasta toiminnasta (1558)</li>
+                      <li>käyttää työpaikan viestintäkanavia ja ohjelmistoja (1557)</li>
+                    </ul>
+                    <h5>Opiskelija tekee tiedonhakua ja ratkaisee tieto- ja viestintätekniikan ongelmia</h5>
+                    <ul>
+                      <li>käyttää alan perussanastoa ja tuntee uusia trendejä (1556)</li>
+                      <li>hyödyntää englanninkielistä materiaalia ongelmanratkaisussa (1555)</li>
+                      <li>ratkaisee ongelmia hakemalla tietoa (1554)</li>
+                    </ul>
+                    <h5>Opiskelija käyttää tietoteknistä ympäristöä</h5>
+                    <ul>
+                      <li>käyttää työssä tarvittavia käyttöjärjestelmiä (1553)</li>
+                      <li>jakaa ja ottaa käyttöön verkkoyhteyden eri päätelaitteilla ottaen huomioon tietoturvan (1552)</li>
+                      <li>tuntee internetin ja koti- ja pienyrityksen verkon perusrakenteen (1551)</li>
+                      <li>hallitsee ja suojaa koti- ja pienyrityksen tietoliikenne- ja oheislaitteita (1550)</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- Item 2 -->
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#osa-two">
+                  Ohjelmointi, 45 osp
+                </button>
+              </h2>
+              <div id="osa-two" class="accordion-collapse collapse" data-bs-parent="#osat">
+                <div class="accordion-body">
+                  <div class="row pb-1">
+                    <div class="col text-start">
+                      <h4>Ammattitaitovaatimukset</h4>
+                    </div>
+                    <div class="col text-end fw-light">
+                      Koodi: 106419 Järjestysnumero: 7
+                    </div>
+                    <h5>Opiskelija käyttää ohjelmistokehitysympäristöä</h5>
+                    <ul>
+                      <li>käyttää ohjelmointieditoria tai kehitysympäristöä (1473)</li>
+                      <li>etsii ja korjaa virheitä ohjelmakoodista (1472)</li>
+                      <li>testaa ohjelman toimintoja (1471)</li>
+                    </ul>
+                    <h5>Opiskelija ohjelmoi</h5>
+                    <ul>
+                      <li>käyttää rakenteista ohjelmointia toteutuksissa (1470)</li>
+                      <li>kirjoittaa ylläpidettävää ohjelmakoodia (1469)</li>
+                      <li>tulkitsee suunnitelmia ja toteuttaa käyttöliittymän tai sen osia (1468)</li>
+                      <li>tulkitsee suunnitelmia ja toteuttaa ohjelmiston toimintoja (1467)</li>
+                    </ul>
+                    <h5>Opiskelija toimii ohjelmistokehitystiimin jäsenenä</h5>
+                    <ul>
+                      <li>sopii tehtävistä tiimin muiden jäsenten kanssa (1466)</li>
+                      <li>etsii ratkaisuvaihtoehtoja ja ratkoo ongelmia yhdessä tiimin kanssa (1465)</li>
+                      <li>arvioi ratkaisujen toimivuuden yhdessä tiimin kanssa (1464)</li>
+                      <li>arvioi omaa toimintaa tiimin jäsenenä (1463)</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- Item 3 -->
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#osa-three">
+                  Ohjelmistokehittäjänä toimiminen, 45 osp
+                </button>
+              </h2>
+              <div id="osa-three" class="accordion-collapse collapse" data-bs-parent="#osat">
+                <div class="accordion-body">
+                  <div class="row pb-1">
+                    <div class="col text-start">
+                      <h4>Ammattitaitovaatimukset</h4>
+                    </div>
+                    <div class="col text-end fw-light">
+                      Koodi: 106420 Järjestysnumero: 8
+                    </div>
+                    <h5>Opiskelija kommunikoi asiakkaan kanssa</h5>
+                    <ul>
+                      <li>selvittää kehitystiimin kanssa asiakkaan tarpeet (1462)</li>
+                      <li>viestii tekniset asiat asiakaslähtöisesti (1461)</li>
+                      <li>osallistuu version katselmointiin (1460)</li>
+                    </ul>
+                    <h5>Opiskelija suunnittelee ohjelmiston toteutuksen</h5>
+                    <ul>
+                      <li>asettaa kehitystiimin kanssa toteutettavat toiminnot tärkeysjärjestykseen (1459)</li>
+                      <li>jakaa kehitystiimin kanssa toteutettavat toiminnot tehtäviksi (1458)</li>
+                      <li>suunnittelee ja arvioi kehitystiimin kanssa tehtävien toteuttamista (1457)</li>
+                    </ul>
+                    <h5>Opiskelija kehittää ohjelmiston toimintalogiikkaa ja tietovarastoyhteyksiä</h5>
+                    <ul>
+                      <li>kehittää ohjelmiston toimintalogiikkaa (1456)</li>
+                      <li>valitsee ohjelmistoon sopivan tietovaraston (1455)</li>
+                      <li>toteuttaa yhteyden tietovarastoon (1454)</li>
+                      <li>hyödyntää rajapintoja ja käsittelee tietoa (1453)</li>
+                      <li>arvioi ohjelmiston tietoturvaa (1452)</li>
+                    </ul>
+                    <h5>Opiskelija versioi ja julkaisee ohjelman</h5>
+                    <ul>
+                      <li>käyttää versionhallintaa (1451)</li>
+                      <li>liittää ohjelman osan olemassa olevaan versioon (1450)</li>
+                      <li>julkaisee ohjelman tuotantoympäristöön (1449)</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- Item 4 -->
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#osa-four">
+                  Verkkopalvelun tekninen toteuttaminen, 15 osp
+                </button>
+              </h2>
+              <div id="osa-four" class="accordion-collapse collapse" data-bs-parent="#osat">
+                <div class="accordion-body">
+                  <div class="row pb-1">
+                    <div class="col text-start">
+                      <h4>Ammattitaitovaatimukset</h4>
+                    </div>
+                    <div class="col text-end fw-light">
+                      Koodi: 106432 Järjestysnumero: 20
+                    </div>
+                    <h5>Opiskelija suunnittelee verkkopalvelun</h5>
+                    <ul>
+                      <li>selvittää asiakkaan verkkopalvelun nykytilanteen ja tarpeet (1295)</li>
+                      <li>valitsee asiakkaan tarpeisiin sopivan teknisen ratkaisun verkkopalvelun toteuttamiseen (1294)</li>
+                      <li>suunnitella verkkopalvelun, joka noudattaa asiakkaan graafista ohjeistusta (1293)</li>
+                    </ul>
+                    <h5>Opiskelija toteuttaa verkkopalvelun</h5>
+                    <ul>
+                      <li>huomioi työssään verkkopalveluiden tietoturvan (1292)</li>
+                      <li>toteuttaa selaimen kautta päivitettävän verkkopalvelun (1291)</li>
+                      <li>huomioi esteettömyyden ja käytettävyyden verkkopalvelun toteutuksessa (1290)</li>
+                    </ul>
+                    <h5>Opiskelija julkaisee verkkopalvelun</h5>
+                    <ul>
+                      <li>julkaisee verkkopalvelun (1289)</li>
+                      <li>opastaa verkkopalvelun sisällöntuottajaa (1288)</li>
+                      <li>tukee asiakasta verkkopalveluun liittyvissä teknisissä ongelmissa (1287)</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Kriteerit -->
+  <section id="kriteerit" class="py-5 py-0 bg-dark text-light fs-5" data-bs-theme="dark">
+    <div class="container">
+      <h2 class="text-center">Kriteerit</h2>
+      <div id="carouselKriteerit" class="carousel slide">
+        <div class="carousel-indicators sticky-bottom">
+          <button type="button" data-bs-target="#carouselKriteerit" data-bs-slide-to="0" class="active"></button>
+          <button type="button" data-bs-target="#carouselKriteerit" data-bs-slide-to="1"></button>
+          <button type="button" data-bs-target="#carouselKriteerit" data-bs-slide-to="2"></button>
+          <button type="button" data-bs-target="#carouselKriteerit" data-bs-slide-to="3"></button>
+          <button type="button" data-bs-target="#carouselKriteerit" data-bs-slide-to="4"></button>
+        </div>
+        <div class="carousel-inner">
+          <!-- Item 1 -->
+          <div class="carousel-item active">
+            <div class="row justify-content-center">
+              <div class="col" style="max-width: max-content;">
+                <div class="card d-block">
+                  <div class="card-header">
+                    Tyydyttävä 1
+                  </div>
+                  <div class="card-body">
+                    <ul class="card-text lh-1">
+                      <li class="pb-2">toteuttaa työn ohjeiden mukaisesti</li>
+                      <li class="pb-2">toimii yhteistyökykyisesti</li>
+                      <li class="pb-2">tarvitsee joissakin tilanteissa lisäohjeita</li>
+                      <li class="pb-2">hyödyntää työssä tarvittavaa perustietoa</li>
+                      <li class="pb-2">muuttaa toimintaansa saamansa palautteen mukaisesti</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Item 2 -->
+          <div class="carousel-item">
+            <div class="row justify-content-center">
+              <div class="col" style="max-width: max-content;">
+                <div class="card d-block">
+                  <div class="card-header">
+                    Tyydyttävä 2
+                  </div>
+                  <div class="card-body">
+                    <ul class="card-text lh-1">
+                      <li class="pb-2">toteuttaa työn oma-aloitteisesti ja ohjeiden mukaisesti</li>
+                      <li class="pb-2">toimii yhteistyökykyisesti ja vuorovaikutteisesti</li>
+                      <li class="pb-2">tarvitsee vain harvoissa tilanteissa lisäohjeita</li>
+                      <li class="pb-2">hyödyntää työssä tarvittavaa tietoa tarkoituksenmukaisesti</li>
+                      <li class="pb-2">muuttaa toimintaansa saamansa palautteen ja omien havaintojen mukaisesti</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Item 3 -->
+          <div class="carousel-item">
+            <div class="row justify-content-center">
+              <div class="col" style="max-width: max-content;">
+                <div class="card d-block">
+                  <div class="card-header">
+                    Hyvä 3
+                  </div>
+                  <div class="card-body">
+                    <ul class="card-text">
+                      <li>toteuttaa työkokonaisuuden itsenäisesti</li>
+                      <li>toimii yhteistyökykyisesti ja aloitteellisesti vuorovaikutustilanteissa</li>
+                      <li>selviytyy tavanomaisista ongelmanratkaisutilanteista</li>
+                      <li>hyödyntää työssä tarvittavaa tietoa monipuolisesti</li>
+                      <li>arvioi suoriutumistaan realistisesti</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Item 4 -->
+          <div class="carousel-item">
+            <div class="row justify-content-center">
+              <div class="col" style="max-width: max-content;">
+                <div class="card d-block">
+                  <div class="card-header">
+                    Hyvä 4
+                  </div>
+                  <div class="card-body">
+                    <ul class="card-text">
+                      <li>suunnittelee ja toteuttaa työkokonaisuuden itsenäisesti</li>
+                      <li>toimii yhteistyökykyisesti ja rakentavasti vuorovaikutustilanteissa</li>
+                      <li>selviytyy ongelmanratkaisutilanteista hyödyntäen monipuolisia ratkaisutapoja</li>
+                      <li>soveltaa työssä tarvittavaa tietoa monipuolisesti ja perustellusti</li>
+                      <li>arvioi suoriutumistaan realistisesti sekä tunnistaa vahvuuksiaan ja kehittämisen kohteitaan</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Item 5 -->
+          <div class="carousel-item">
+            <div class="row justify-content-center">
+              <div class="col" style="max-width: max-content;">
+                <div class="card d-block">
+                  <div class="card-header">
+                    Kiitettävä 5
+                  </div>
+                  <div class="card-body">
+                    <ul class="card-text">
+                      <li>suunnittelee ja toteuttaa työkokonaisuuden itsenäisesti ottaen huomioon muut toimijat</li>
+                      <li>toimii yhteistyökykyisesti ja rakentavasti haastavissakin vuorovaikutustilanteissa</li>
+                      <li>soveltaa työssä tarvittavaa tietoa ongelmanratkaisutilanteissa monipuolisesti ja kriittisesti</li>
+                      <li>arvioi suoriutumistaan realistisesti sekä tunnistaa vahvuuksiaan ja kehittämisen kohteitaan</li>
+                      <li>arvioi suoriutumistaan realistisesti ja esittää perusteltuja ratkaisuja osaamisensa kehittämiseen</li>
+                      <li>ymmärtää oman työnsä merkityksen osana laajempaa kokonaisuutta</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselKriteerit" data-bs-slide="prev" data-bs-theme="light">
+            <span class="carousel-control-prev-icon"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselKriteerit" data-bs-slide="next">
+            <span class="carousel-control-next-icon"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <!-- Arviointi -->
+  <section id="arviointi" class="py-5 p-md-5">
+    <div class="container">
+      <div class="row align-items-center justify-content-between">
+        <div class="col-md pb-3">
+          <img src="img/undraw_charts_re_5qe9.svg" class="img-fluid" alt="">
+        </div>
+        <div class="col-md p-md-5">
+          <h2>Osaamisen arviointi</h2>
+          <p class="lead">Ammatilliset tutkinnon osat arvioidaan asteikolla 1-5 tutkinnon osan ammattitaitovaatimusten ja arviointikriteerien mukaisesti. Opiskelijan osaaminen arvioidaan tutkinnon osittain. Tutkinnon osan arvosana määräytyy sen mukaan, mille arviointiasteikon tasolle opiskelijan osaaminen kokonaisuutena parhaiten sijoittuu.</p>
+
+          <p>Yhteisten tutkinnon osien osa-alueet ja yritystoiminnan suunnittelu, työpaikkaohjaajaksi valmentautuminen, yrityksessä toimiminen ja huippuosaajana toimiminen tutkinnon osat arvioidaan asteikolla 1-5 tutkinnon osan ammattitaitovaatimusten, osaamistavoitteiden ja arviointikriteerien mukaisesti.</p>
+          
+          <p class="fw-semibold">Arvosanat 2 ja 4 määräytyvät seuraavasti:</p>
+          <p>2 = Opiskelijan osaamisen taso ylittää selkeästi 1-tason, mutta ei yllä 3-tasolle.</p>
+          <p>4 = Opiskelijan osaamisen taso ylittää selkeästi 3-tason, mutta ei yllä 5-tasolle.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="logo bg-dark text-white overflow-hidden" data-bs-theme="dark">
+      <div class="row">
+        <div class="col-auto">
+          Copyright &copy; 2024 It-velhot
+        </div>
+        <div class="col-auto">
+          illustration: <a href="https://undraw.co/">unDraw</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>
